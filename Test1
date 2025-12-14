@@ -1,0 +1,28 @@
+sudo apt update && sudo apt install -y \
+  build-essential \
+  git \
+  bc \
+  bison \
+  flex \
+  libssl-dev \
+  libelf-dev \
+  libncurses5-dev \
+  libncursesw5-dev \
+  ccache \
+  rsync \
+  python \
+  python3 \
+  device-tree-compiler \
+  lz4 \
+  kmod \
+  cpio \
+  u-boot-tools \
+  lzop \
+  liblz4-tool \
+  zlib1g-dev \
+  gcc-aarch64-linux-gnu \
+  gcc-arm-linux-gnueabi \
+  llvm \
+  lld \
+  gcc \
+  g++
