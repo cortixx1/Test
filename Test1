@@ -1,28 +1,16 @@
-sudo apt update && sudo apt install -y \
-  build-essential \
-  git \
-  bc \
-  bison \
-  flex \
-  libssl-dev \
-  libelf-dev \
-  libncurses5-dev \
-  libncursesw5-dev \
-  ccache \
-  rsync \
-  python \
-  python3 \
-  device-tree-compiler \
-  lz4 \
-  kmod \
-  cpio \
-  u-boot-tools \
-  lzop \
-  liblz4-tool \
-  zlib1g-dev \
-  gcc-aarch64-linux-gnu \
-  gcc-arm-linux-gnueabi \
-  llvm \
-  lld \
-  gcc \
-  g++
+export VK_INSTANCE_LAYERS=""
+# затем запуск той же командой, которой раньше запускал игру, например:
+./BeamNG.drive.x64 2>&1 | tee ~/beamng_run_output_no_layers.txt
+``:contentReference[oaicite:13]{index=13}начит конфликт даёт один из слоёв (Steam overlay / fossilize / mesa anti-lag). В `vulkaninfo` видно эти слои (Valve + Mesa). :contentReference[oaicite:14]{index=14}
+
+### 2) Отключи Steam Overlay (если запускаешь через Steam)
+В Steam → Свойства игры → снять галку «Steam Overlay», затем перезапустить игру. Иногда overlay ломает Vulkan-цепочку.
+
+### 3) Принудительно указать ICD (убережёт от конфликтов с runtime)
+Найди icd-файл и используй его:
+```bash
+# найди файл icd, в vulkaninfo он укажет стек; пример
+ls /usr/share/vulkan/icd.d
+# затем (пример)
+export VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/intel_icd.x86_64.json
+./BeamNG.drive.x64 2>&1 | tee ~/beamng_run_output_icd.txt
