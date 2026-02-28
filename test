@@ -1,1 +1,23 @@
-sudo apt update && sudo apt install --install-recommends kde-full kde-plasma-desktop kde-standard kde-telepathy kdeconnect plasma-discover plasma-discover-backend-flatpak khelpcenter kde-config-tablet kde-config-touchpad kde-config-screenlocker kde-config-gtk-style kde-config-cron kde-config-sddm systemsettings kio-extras plasma-workspace-wallpapers kde-baseapps kdeadmin kdeartwork kdeedu kdegames kdemultimedia kdenetwork kdepim kdepim-addons kdepim-runtime kdesdk kdetoys kdeutils kdewebdev && sudo apt install --install-recommends calligra digikam k3b kdevelop amarok kmail kontact kaddressbook korganizer akregator knotes ktimer kcalc ark dolphin konqueror konsole kate kwrite okular spectacle gwenview kolourpaint kruler kcharselect kfind ksysguard kwalletmanager ksystemlog partitionmanager sweeper && echo "Установка завершена! Перезагрузитесь: sudo reboot"
+sudo dmesg | grep -i intel | tail -n 200
+[20351.646843] intel-hid INTC10CB:00: failed to get button capability
+[20640.360040] intel-hid INTC10CB:00: failed to get button capability
+[20716.794513] ===>>> BeamNGMa[175602]: segfault at 64 ip 00007f419aa380f0 sp 00007fffba4c7bc0 error 4 in libvulkan_intel.so[380f0,7f419aa0a000+929000] likely on CPU 5 (core 28, socket 0)
+[20834.195849] ===>>> BeamNGMa[176385]: segfault at 64 ip 00007f92112380f0 sp 00007ffeca207190 error 4 in libvulkan_intel.so[380f0,7f921120a000+929000] likely on CPU 0 (core 0, socket 0)
+[20856.339652] ===>>> BeamNGMa[176571]: segfault at 64 ip 00007f8b9aa380f0 sp 00007ffd5709a0e0 error 4 in libvulkan_intel.so[380f0,7f8b9aa0a000+929000] likely on CPU 3 (core 20, socket 0)
+[20897.753382] ===>>> BeamNGMa[176800]: segfault at 64 ip 00007f63f00380f0 sp 00007fffdeed3e60 error 4 in libvulkan_intel.so[380f0,7f63f000a000+929000] likely on CPU 3 (core 20, socket 0)
+[21007.609993] ===>>> BeamNGMa[177057]: segfault at 64 ip 00007fd84aa380f0 sp 00007ffc84d4d1d0 error 4 in libvulkan_intel.so[380f0,7fd84aa0a000+929000] likely on CPU 5 (core 28, socket 0)
+[21033.400208] ===>>> BeamNGMa[177265]: segfault at 64 ip 00007fc9ec4380f0 sp 00007fffb9795d20 error 4 in libvulkan_intel.so[380f0,7fc9ec40a000+929000] likely on CPU 6 (core 8, socket 0)
+[21374.739129] ===>>> BeamNGMa[178375]: segfault at 64 ip 00007f2758e380f0 sp 00007fff9d42b840 error 4 in libvulkan_intel.so[380f0,7f2758e0a000+929000] likely on CPU 3 (core 20, socket 0)
+[21449.348769] ===>>> BeamNGMa[178617]: segfault at 64 ip 00007fa62c4380f0 sp 00007ffdce12e930 error 4 in libvulkan_intel.so[380f0,7fa62c40a000+929000] likely on CPU 0 (core 0, socket 0)
+[21603.274729] ===>>> BeamNGMa[178855]: segfault at 64 ip 00007f216ea380f0 sp 00007ffd8bab0620 error 4 in libvulkan_intel.so[380f0,7f216ea0a000+929000] likely on CPU 1 (core 4, socket 0)
+[22209.208601] ===>>> BeamNGMa[180568]: segfault at 64 ip 00007fb0958380f0 sp 00007ffc73f09150 error 4 in libvulkan_intel.so[380f0,7fb09580a000+929000] likely on CPU 4 (core 24, socket 0)
+[22540.225392] ===>>> BeamNGMa[181368]: segfault at 64 ip 00007f081d8380f0 sp 00007ffee83e0250 error 4 in libvulkan_intel.so[380f0,7f081d80a000+929000] likely on CPU 2 (core 16, socket 0)
+[22596.213413] ===>>> BeamNGMa[181636]: segfault at 64 ip 00007fbcc68380f0 sp 00007fffe5db73e0 error 4 in libvulkan_intel.so[380f0,7fbcc680a000+929000] likely on CPU 9 (core 11, socket 0)
+[23161.595921] ===>>> BeamNGMa[186798]: segfault at 64 ip 00007fc410a380f0 sp 00007fffe240d9c0 error 4 in libvulkan_intel.so[380f0,7fc410a0a000+929000] likely on CPU 0 (core 0, socket 0)
+[23176.302539] ===>>> BeamNGMa[186961]: segfault at 64 ip 00007ff8718380f0 sp 00007fffe92ff260 error 4 in libvulkan_intel.so[380f0,7ff87180a000+929000] likely on CPU 4 (core 24, socket 0)
+[23281.041824] ===>>> BeamNGMa[187206]: segfault at 64 ip 00007f0c018380f0 sp 00007fff53cd67e0 error 4 in libvulkan_intel.so[380f0,7f0c0180a000+929000] likely on CPU 4 (core 24, socket 0)
+[23298.978946] ===>>> BeamNGMa[187391]: segfault at 64 ip 00007f8f8aa380f0 sp 00007fffec8c65b0 error 4 in libvulkan_intel.so[380f0,7f8f8aa0a000+929000] likely on CPU 6 (core 8, socket 0)
+[24130.133241] ===>>> BeamNGMa[187895]: segfault at 64 ip 00007f961aa380f0 sp 00007ffc0c70d4f0 error 4 in libvulkan_intel.so[380f0,7f961aa0a000+929000] likely on CPU 4 (core 24, socket 0)
+[25734.462026] intel-hid INTC10CB:00: failed to get button capability
+[25951.257373] intel-hid INTC10CB:00: failed to get button capability
+[26471.891230] ===>>> BeamNGMa[209339]: segfault at 64 ip 00007fe2298380f0 sp 00007fff41793960 error 4 in libvulkan_intel.so[380f0,7fe22980a000+929000] likely on CPU 2 (core 16, socket 0)
