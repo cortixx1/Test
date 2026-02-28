@@ -1,160 +1,163 @@
 Shutdown handler: initialize.
   >>>>  [CURRENT_CONFIGURATION=SHIPPING=BNG_SHIPPING]  <<<<
-  0.03682|D|saveStoredVersion| Saving version '0.38.4.0' to ini file '/home/ductape/.local/share/BeamNG/BeamNG.drive.ini'
-  0.03694|D|crashrpt| Installing crash reporter on path: /home/ductape/.local/share/BeamNG/BeamNG.drive/current/temp/crashReports
-  0.10914|I|engine| Virtual Filesystem: user path: /home/ductape/.local/share/BeamNG/BeamNG.drive/current/ (Default behaviour)
-  0.10917|D|main| H2 ADF9FB4F19AE6A3402B7E9CA876CE72EF72D
->   0.12032|I|init| Initializing platform...
-  0.12057|D|engine| initializing 115 modules (only displaying anything above 0.1 s)...
-  0.12059|D|gfx| GFX Init:
-  0.12059|D|gfx|    Null device found
-  0.12126|D|fmod| FMOD API version: 2.03.09
-  0.13585|D|sfx| Using default audio device: Arrow Lake cAVS Speaker
-  0.14204|D|_init| SFXFMODDevice FMOD Driver info:
-  0.14206|D|_init|  - id: 0
-  0.14206|D|_init|  - name: Arrow Lake cAVS Speaker
-  0.14206|D|_init|  - systemrate: 48000
-  0.14207|D|_init|  - speakermode: 'Stereo' (internal id=3)
-  0.14207|D|_init|  - speakermodechannels: 2
-  0.27389|D|sfx| Created FMOD device 'Arrow Lake cAVS Speaker'
-  0.27391|D|sfx|   CAPS_VoiceManagement
-  0.27416|D|sfx|    Provider: FMOD
-  0.27416|D|sfx|    Hardware: false
-  0.27416|D|sfx|    Buffers: 16
-  0.27419|D|engine|  - AFT_INIT:BeamEngine in 0.14 seconds
+  0.03003|D|saveStoredVersion| Saving version '0.38.4.0' to ini file '/home/ductape/.local/share/BeamNG/BeamNG.drive.ini'
+  0.03015|D|crashrpt| Installing crash reporter on path: /home/ductape/.local/share/BeamNG/BeamNG.drive/current/temp/crashReports
+  0.09978|I|engine| Virtual Filesystem: user path: /home/ductape/.local/share/BeamNG/BeamNG.drive/current/ (Default behaviour)
+  0.09980|D|main| H2 ADF9FB4F19AE6A3402B7E9CA876CE72EF72D
+>   0.10969|I|init| Initializing platform...
+  0.10990|D|engine| initializing 115 modules (only displaying anything above 0.1 s)...
+  0.10993|D|gfx| GFX Init:
+  0.10993|D|gfx|    Null device found
+  0.11052|D|fmod| FMOD API version: 2.03.09
+  0.12384|D|sfx| Using default audio device: Arrow Lake cAVS Speaker
+  0.12866|D|_init| SFXFMODDevice FMOD Driver info:
+  0.12867|D|_init|  - id: 0
+  0.12867|D|_init|  - name: Arrow Lake cAVS Speaker
+  0.12867|D|_init|  - systemrate: 48000
+  0.12867|D|_init|  - speakermode: 'Stereo' (internal id=3)
+  0.12868|D|_init|  - speakermodechannels: 2
+  0.24882|D|sfx| Created FMOD device 'Arrow Lake cAVS Speaker'
+  0.24884|D|sfx|   CAPS_VoiceManagement
+  0.24958|D|sfx|    Provider: FMOD
+  0.24959|D|sfx|    Hardware: false
+  0.24959|D|sfx|    Buffers: 16
+  0.24962|D|engine|  - AFT_INIT:BeamEngine in 0.13 seconds
 [S_API] SteamAPI_Init(): Loaded '/home/ductape/.local/share/Steam/linux64/steamclient.so' OK.
-  0.28478|D|Steam| Could not initialize Steam functions
-  0.28479|E|OnlineServiceProvider| Could not initialize online service provider: Steam - Error code 1
-  0.29701|I|GELua.| ============== GELUA VM loading ===============
-  0.38519|D|GELua.core_versionUpdate.| Current version: '"0.38.4.0.19257"' ('"0.38"'), last version: '' (''), newInstall: 'true'
-  0.38521|D|GELua.core_versionUpdate.| Folder cleanup skipped
-  0.38523|D|GELua.gameplay_missions_progress.| Loaded 0 condition types from 0 files.
-  0.38583|D|GELua.gameplay_missions_missions.| Loaded 2 procedural Mission Generators from 2 files.
-  0.38648|D|GELua.gameplay_missions_unlocks.| Loaded 10 condition types from 4 files.
-  0.38880|D|engine|  - GameEngineLua in 0.10 seconds
-  0.38883|D|engine| ... all modules loaded in 0.268 seconds
-  0.38890|E|CommandListener| CommandListener not working. Unable to open Pipe. Is another instance of BeamNG still running?
-  0.38890|E|startCommandListener| Failed to start command listener
-  0.38890|D|init| OpenXR: Steam VR mode: disabled
-  0.38891|D|init| SaveData cloud sync status: inactive
-  0.39382|D|gfx| Available adapters: 2
-  0.39384|D|gfx|  - name:GPU (Vulkan), outputName:\\.\DISPLAY1, gfx:Vulkan, gpu:GPU
-  0.39384|D|gfx|  - name:GFX Null Device, outputName:, gfx:, gpu:
-  0.39385|D|gfx| Attempting to create GFX device 1: GPU (Vulkan) [with output \\.\DISPLAY1]
-  0.39385|D|gfx| shader model: 5.0 , available video modes: 37
-  0.39387|D|gfx| Device created, setting adapter and enumerating modes
-  0.40975|D|vulkan| 26 supported Vk instance extensions: VK_EXT_swapchain_colorspace, VK_EXT_headless_surface, VK_EXT_display_surface_counter, VK_EXT_debug_utils, VK_EXT_debug_report, VK_EXT_acquire_xlib_display, VK_EXT_acquire_drm_display, VK_EXT_layer_settings, VK_KHR_device_group_creation, VK_KHR_surface_maintenance1, VK_KHR_get_physical_device_properties2, VK_KHR_display, VK_EXT_direct_mode_display, VK_KHR_external_semaphore_capabilities, VK_KHR_get_display_properties2, VK_LUNARG_direct_driver_loading, VK_KHR_external_memory_capabilities, VK_KHR_portability_enumeration, VK_KHR_get_surface_capabilities2, VK_EXT_surface_maintenance1, VK_KHR_xcb_surface, VK_KHR_external_fence_capabilities, VK_KHR_surface, VK_KHR_surface_protected_capabilities, VK_KHR_wayland_surface, VK_KHR_xlib_surface
-  0.40977|D|vulkan| The requested Vulkan instance extension does not appear to be supported, skipping extension: VK_NV_external_memory_capabilities
-  0.40997|D|vulkan| 7 Layers: VK_LAYER_VALVE_steam_overlay_32, VK_LAYER_VALVE_steam_overlay_64, VK_LAYER_VALVE_steam_fossilize_32, VK_LAYER_VALVE_steam_fossilize_64, VK_LAYER_MESA_anti_lag, VK_LAYER_MESA_device_select, VK_LAYER_FROG_gamescope_wsi_x86_64
-  0.40998|D|vulkan| Attempting to create vulkan instance with the following 7 instance extensions: VK_KHR_get_physical_device_properties2, VK_EXT_debug_utils, VK_KHR_surface, VK_KHR_external_memory_capabilities, VK_KHR_external_fence_capabilities, VK_KHR_external_semaphore_capabilities, VK_KHR_xlib_surface
-  0.41259|D|vulkan| Available vulkan devices:
-  0.41260|D|vulkan|  - name:Intel(R) Graphics (ARL) vendor:32902 version:109051905 type:Integrated
-  0.41260|D|vulkan| Trying to locate a vulkan device with type: Discrete
-  0.41260|D|vulkan|  - Ignoring vulkan device with unsuitable type: name:Intel(R) Graphics (ARL) vendor:32902 version:109051905 type:Integrated
-  0.41261|D|vulkan| Trying to locate a vulkan device with type: Integrated
-  0.41261|D|vulkan|  - Found vulkan device with suitable type: name:Intel(R) Graphics (ARL) vendor:32902 version:109051905 type:Integrated
-  0.41282|D|vulkan| 194 supported Vk device extensions: VK_NV_compute_shader_derivatives, VK_MESA_image_alignment_control, VK_GOOGLE_user_type, VK_GOOGLE_hlsl_functionality1, VK_GOOGLE_decorate_string, VK_EXT_vertex_attribute_divisor, VK_EXT_tooling_info, VK_EXT_texel_buffer_alignment, VK_EXT_swapchain_maintenance1, VK_EXT_shader_viewport_index_layer, VK_EXT_shader_subgroup_vote, VK_EXT_shader_replicated_composites, VK_EXT_shader_object, VK_EXT_shader_image_atomic_int64, VK_EXT_shader_demote_to_helper_invocation, VK_EXT_sample_locations, VK_EXT_robustness2, VK_EXT_shader_module_identifier, VK_EXT_private_data, VK_EXT_primitives_generated_query, VK_EXT_pipeline_robustness, VK_EXT_scalar_block_layout, VK_EXT_pipeline_library_group_handles, VK_EXT_physical_device_drm, VK_EXT_nested_command_buffer, VK_EXT_mutable_descriptor_type, VK_EXT_multi_draw, VK_EXT_mesh_shader, VK_EXT_memory_budget, VK_EXT_map_memory_placed, VK_EXT_load_store_op_none, VK_EXT_ycbcr_2plane_444_formats, VK_EXT_line_rasterization, VK_EXT_legacy_dithering, VK_EXT_inline_uniform_block, VK_EXT_image_view_min_lod, VK_EXT_image_robustness, VK_EXT_post_depth_coverage, VK_EXT_image_drm_format_modifier, VK_EXT_image_2d_view_of_3d, VK_EXT_host_query_reset, VK_AMD_buffer_marker, VK_EXT_host_image_copy, VK_KHR_shader_float_controls2, VK_KHR_present_id, VK_KHR_pipeline_executable_properties, VK_EXT_pci_bus_info, VK_KHR_shader_maximal_reconvergence, VK_KHR_maintenance2, VK_EXT_pipeline_protected_access, VK_KHR_multiview, VK_KHR_present_wait, VK_KHR_maintenance10, VK_KHR_spirv_1_4, VK_KHR_maintenance9, VK_KHR_line_rasterization, VK_EXT_pipeline_creation_feedback, VK_KHR_global_priority, VK_KHR_present_id2, VK_KHR_external_semaphore_fd, VK_KHR_ray_tracing_maintenance1, VK_KHR_acceleration_structure, VK_KHR_cooperative_matrix, VK_KHR_zero_initialize_workgroup_memory, VK_KHR_incremental_present, VK_KHR_create_renderpass2, VK_KHR_maintenance5, VK_KHR_load_store_op_none, VK_EXT_external_memory_dma_buf, VK_EXT_custom_border_color, VK_KHR_copy_commands2, VK_KHR_driver_properties, VK_KHR_maintenance7, VK_KHR_buffer_device_address, VK_KHR_draw_indirect_count, VK_EXT_calibrated_timestamps, VK_KHR_imageless_framebuffer, VK_VALVE_mutable_descriptor_type, VK_KHR_bind_memory2, VK_KHR_dedicated_allocation, VK_KHR_storage_buffer_storage_class, VK_KHR_maintenance6, VK_EXT_subgroup_size_control, VK_KHR_maintenance3, VK_EXT_pipeline_creation_cache_control, VK_KHR_pipeline_binary, VK_KHR_deferred_host_operations, VK_KHR_ray_query, VK_KHR_external_fence_fd, VK_KHR_vulkan_memory_model, VK_KHR_fragment_shading_rate, VK_KHR_present_wait2, VK_KHR_compute_shader_derivatives, VK_KHR_calibrated_timestamps, VK_KHR_variable_pointers, VK_EXT_descriptor_buffer, VK_EXT_device_memory_report, VK_KHR_ray_tracing_position_fetch, VK_KHR_8bit_storage, VK_EXT_transform_feedback, VK_KHR_depth_stencil_resolve, VK_EXT_external_memory_acquire_unmodified, VK_EXT_index_type_uint8, VK_KHR_device_group, VK_KHR_external_fence, VK_KHR_uniform_buffer_standard_layout, VK_KHR_push_descriptor, VK_EXT_color_write_enable, VK_EXT_fragment_shader_interlock, VK_KHR_get_memory_requirements2, VK_KHR_shader_relaxed_extended_instruction, VK_KHR_dynamic_rendering, VK_KHR_maintenance8, VK_EXT_attachment_feedback_loop_dynamic_state, VK_EXT_shader_atomic_float, VK_EXT_separate_stencil_usage, VK_KHR_shader_terminate_invocation, VK_KHR_dynamic_rendering_local_read, VK_INTEL_shader_integer_functions2, VK_EXT_shader_subgroup_ballot, VK_KHR_format_feature_flags2, VK_EXT_image_sliced_view_of_3d, VK_KHR_pipeline_library, VK_KHR_vertex_attribute_divisor, VK_EXT_vertex_input_dynamic_state, VK_KHR_maintenance4, VK_EXT_shader_atomic_float2, VK_KHR_external_memory_fd, VK_EXT_extended_dynamic_state2, VK_KHR_external_semaphore, VK_KHR_image_format_list, VK_EXT_border_color_swizzle, VK_KHR_ray_tracing_pipeline, VK_KHR_map_memory2, VK_KHR_robustness2, VK_KHR_shader_float16_int8, VK_EXT_depth_clip_enable, VK_KHR_sampler_ycbcr_conversion, VK_EXT_shader_stencil_export, VK_EXT_queue_family_foreign, VK_KHR_shader_subgroup_extended_types, VK_KHR_shader_atomic_int64, VK_KHR_shader_clock, VK_EXT_4444_formats, VK_EXT_ycbcr_image_arrays, VK_KHR_shader_bfloat16, VK_KHR_index_type_uint8, VK_KHR_shader_draw_parameters, VK_KHR_maintenance1, VK_EXT_external_memory_host, VK_EXT_extended_dynamic_state3, VK_KHR_external_memory, VK_KHR_relaxed_block_layout, VK_KHR_shader_expect_assume, VK_KHR_workgroup_memory_explicit_layout, VK_KHR_shader_float_controls, VK_EXT_non_seamless_cube_map, VK_KHR_shader_integer_dot_product, VK_KHR_shader_quad_control, VK_KHR_shader_non_semantic_info, VK_KHR_depth_clamp_zero_one, VK_EXT_depth_bias_control, VK_KHR_shader_subgroup_rotate, VK_KHR_shader_subgroup_uniform_control_flow, VK_EXT_sampler_filter_minmax, VK_KHR_shader_untyped_pointers, VK_KHR_swapchain, VK_KHR_descriptor_update_template, VK_EXT_display_control, VK_KHR_swapchain_maintenance1, VK_KHR_swapchain_mutable_format, VK_EXT_provoking_vertex, VK_EXT_depth_clamp_control, VK_EXT_legacy_vertex_attributes, VK_KHR_separate_depth_stencil_layouts, VK_KHR_synchronization2, VK_EXT_global_priority_query, VK_EXT_attachment_feedback_loop_layout, VK_KHR_sampler_mirror_clamp_to_edge, VK_EXT_buffer_device_address, VK_EXT_conditional_rendering, VK_EXT_depth_clip_control, VK_EXT_shader_uniform_buffer_unsized_array, VK_EXT_conservative_rasterization, VK_EXT_depth_clamp_zero_one, VK_EXT_global_priority, VK_EXT_descriptor_indexing, VK_KHR_16bit_storage, VK_KHR_timeline_semaphore, VK_EXT_dynamic_rendering_unused_attachments, VK_EXT_extended_dynamic_state, VK_EXT_primitive_topology_list_restart, VK_EXT_graphics_pipeline_library, VK_EXT_hdr_metadata
-  0.41284|D|vulkan| The following Vulkan device extensions are not supported and will be skipped: VK_EXT_memory_priority, VK_NV_device_diagnostic_checkpoints
-  0.41288|D|vulkan| Attempting to create vulkan device with the following 23 vulkan device extensions: VK_KHR_swapchain, VK_EXT_memory_budget, VK_EXT_robustness2, VK_KHR_ray_query, VK_KHR_ray_tracing_pipeline, VK_KHR_acceleration_structure, VK_KHR_deferred_host_operations, VK_KHR_get_memory_requirements2, VK_KHR_external_memory_fd, VK_KHR_external_semaphore_fd, VK_KHR_external_fence_fd, VK_KHR_image_format_list, VK_KHR_external_memory, VK_KHR_external_fence, VK_KHR_external_semaphore, VK_KHR_dedicated_allocation, VK_EXT_queue_family_foreign, VK_KHR_bind_memory2, VK_KHR_create_renderpass2, VK_KHR_maintenance2, VK_KHR_multiview, VK_KHR_push_descriptor, VK_KHR_timeline_semaphore
-  0.41600|D|vulkan| Created Vulkan device from Intel(R) Graphics (ARL)
-  0.41678|D|gfx| GFXCardProfiler (Vulkan) - Setting capability 'maxTextureWidth' to 8192.
-  0.41678|D|gfx| GFXCardProfiler (Vulkan) - Setting capability 'maxTextureHeight' to 8192.
-  0.41679|D|gfx| GFXCardProfiler (Vulkan) - Setting capability 'maxTextureSize' to 8192.
-  0.41679|D|gfx| GFXCardProfiler (Vulkan) - Setting capability 'autoMipMapLevel' to 1.
-  0.41679|D|gfx| GFXCardProfiler (Vulkan) - Setting capability 'lerpDetailBlend' to 1.
-  0.41679|D|gfx| GFXCardProfiler (Vulkan) - Setting capability 'fourStageDetailBlend' to 1.
-  0.45413|D|initShaderGen| Failed to remove file /temp/shaders/procedural/autogenConditioners.h
-  0.46725|D|vulkan| Vulkan render initialized
-  0.46730|I|vulkan| Driver Name: Intel open-source Mesa driver
-  0.46730|I|vulkan| Driver Info: Mesa 26.0.1-arch2.3
-  0.51840|D|GELua.core_settings_graphic.graphic| Sanitizing display - //./DISPLAY1: Passed.
-  0.51845|D|GELua.core_settings_graphic.graphic| Sanitizing display mode - Window: Passed.
-  0.51845|D|GELua.core_settings_graphic.graphic| Sanitizing display resolution for Window mode - 1280 720: Passed.
-  0.53017|D|imgui| Loading 13 imgui fonts...
-  0.53027|D|imgui| Adding fonts to imgui:
-  0.53032|D|imgui| 	'cairo_bold'->'ui/common/Cairo-Bold.ttf' Scale: 1.3  RangeCount: 3
-  0.53036|D|imgui| 	'cairo_regular'->'ui/common/Cairo-Regular.ttf' Scale: 1.3  RangeCount: 3
-  0.53038|D|imgui| 	'cairo_regular_medium'->'ui/common/Cairo-Regular.ttf' Scale: 1.8  RangeCount: 3
-  0.53055|D|imgui| 	'cairo_semibold_large'->'ui/common/Cairo-SemiBold.ttf' Scale: 2  RangeCount: 3
-  0.53104|D|imgui| 	'consola_regular'->'ui/common/win/consola.ttf' Scale: 1  RangeCount: 4
-  0.53138|D|imgui| 	'icons'->'ui/common/fa-solid-900.ttf' Scale: 3  RangeCount: 1
-  0.53327|D|imgui| 	'notosans_jp_regular'->'ui/common/NotoSansJP-Regular.otf' Scale: 1  RangeCount: 3004
-  0.53447|D|imgui| 	'notosans_kr_regular'->'ui/common/NotoSansKR-Regular.otf' Scale: 1  RangeCount: 3
-  0.53692|D|imgui| 	'notosans_sc_regular'->'ui/common/NotoSansSC-Regular.otf' Scale: 1  RangeCount: 2506
-  0.53921|D|imgui| 	'notosans_tc_regular'->'ui/common/NotoSansTC-Regular.otf' Scale: 1  RangeCount: 7
-  0.53932|D|imgui| 	'prompt_regular'->'ui/common/Prompt-Regular.ttf' Scale: 1  RangeCount: 3
-  0.53935|D|imgui| 	'robotomono_regular'->'ui/common/RobotoMono-Regular.ttf' Scale: 1  RangeCount: 4
-  0.53974|D|imgui| 	'segoeui_regular'->'ui/common/win/segoeui.ttf' Scale: 1  RangeCount: 4
-  0.53977|D|getImFontAtlasHash| atlas->Flags: 0
-  0.53978|D|getImFontAtlasHash| atlas->TexDesiredWidth: 0
-  0.53978|D|getImFontAtlasHash| atlas->TexGlyphPadding: 1
-  0.53978|D|getImFontAtlasHash| atlas->TexPixelsUseColors: false
-  0.53978|D|getImFontAtlasHash| atlas->Fonts.Size: 13
-  0.58632|D|load| imguiAtlas cache loaded GE=0.38.4.0.19257 imgui=1.89.8 WIP
-  0.58665|D|imgui| font texture contains 13 fonts. Atlas size: 4096x16384px
-  0.58665|D|imgui|  - cairo_bold           [24.3 px]:    292 glyphs
-  0.58665|D|imgui|  - cairo_regular        [24.3 px]:    292 glyphs
-  0.58666|D|imgui|  - cairo_regular_medium [33.7 px]:    292 glyphs
-  0.58666|D|imgui|  - cairo_semibold_large [37.4 px]:    292 glyphs
-  0.58666|D|imgui|  - consola_regular      [18.7 px]:    465 glyphs
-  0.58666|D|imgui|  - icons                [56.1 px]:     16 glyphs
-  0.58667|D|imgui|  - notosans_jp_regular  [18.7 px]:   3685 glyphs
-  0.58667|D|imgui|  - notosans_kr_regular  [18.7 px]:    388 glyphs
-  0.58667|D|imgui|  - notosans_sc_regular  [18.7 px]:   3220 glyphs
-  0.58667|D|imgui|  - notosans_tc_regular  [18.7 px]:  16064 glyphs
-  0.58667|D|imgui|  - prompt_regular       [18.7 px]:    299 glyphs
-  0.58667|D|imgui|  - robotomono_regular   [18.7 px]:    460 glyphs
-  0.58668|D|imgui|  - segoeui_regular      [18.7 px]:    465 glyphs
-  0.58668|D|imgui| 26230 glyphs totally
-  0.60643|E|GELua.lightManager| Failed to init default system:
-  0.71521|D|_mapMaterial| [Material::mapMaterial] - Cannot map unnamed Material - settings/game-settings-default.cs
-  1.06674|I|GELua.| ============== GELUA VM loaded ================
+  0.27317|D|Steam| Could not initialize Steam functions
+  0.27319|E|OnlineServiceProvider| Could not initialize online service provider: Steam - Error code 1
+  0.28673|I|GELua.| ============== GELUA VM loading ===============
+  0.35033|D|GELua.core_versionUpdate.| Current version: '"0.38.4.0.19257"' ('"0.38"'), last version: '' (''), newInstall: 'true'
+  0.35035|D|GELua.core_versionUpdate.| Folder cleanup skipped
+  0.35037|D|GELua.gameplay_missions_progress.| Loaded 0 condition types from 0 files.
+  0.35092|D|GELua.gameplay_missions_missions.| Loaded 2 procedural Mission Generators from 2 files.
+  0.35157|D|GELua.gameplay_missions_unlocks.| Loaded 10 condition types from 4 files.
+  0.35363|D|engine| ... all modules loaded in 0.244 seconds
+  0.35373|E|CommandListener| CommandListener not working. Unable to open Pipe. Is another instance of BeamNG still running?
+  0.35373|E|startCommandListener| Failed to start command listener
+  0.35373|D|init| OpenXR: Steam VR mode: disabled
+  0.35374|D|init| SaveData cloud sync status: inactive
+  0.35767|D|gfx| Available adapters: 2
+  0.35768|D|gfx|  - name:GPU (Vulkan), outputName:\\.\DISPLAY1, gfx:Vulkan, gpu:GPU
+  0.35769|D|gfx|  - name:GFX Null Device, outputName:, gfx:, gpu:
+  0.35769|D|gfx| Attempting to create GFX device 1: GPU (Vulkan) [with output \\.\DISPLAY1]
+  0.35769|D|gfx| shader model: 5.0 , available video modes: 37
+  0.35770|D|gfx| Device created, setting adapter and enumerating modes
+  0.36585|D|vulkan| 26 supported Vk instance extensions: VK_EXT_swapchain_colorspace, VK_EXT_headless_surface, VK_EXT_display_surface_counter, VK_EXT_debug_utils, VK_EXT_debug_report, VK_EXT_acquire_xlib_display, VK_EXT_acquire_drm_display, VK_EXT_layer_settings, VK_KHR_device_group_creation, VK_KHR_surface_maintenance1, VK_KHR_get_physical_device_properties2, VK_KHR_display, VK_EXT_direct_mode_display, VK_KHR_external_semaphore_capabilities, VK_KHR_get_display_properties2, VK_LUNARG_direct_driver_loading, VK_KHR_external_memory_capabilities, VK_KHR_portability_enumeration, VK_KHR_get_surface_capabilities2, VK_EXT_surface_maintenance1, VK_KHR_xcb_surface, VK_KHR_external_fence_capabilities, VK_KHR_surface, VK_KHR_surface_protected_capabilities, VK_KHR_wayland_surface, VK_KHR_xlib_surface
+  0.36587|D|vulkan| The requested Vulkan instance extension does not appear to be supported, skipping extension: VK_NV_external_memory_capabilities
+  0.36605|D|vulkan| 7 Layers: VK_LAYER_VALVE_steam_overlay_32, VK_LAYER_VALVE_steam_overlay_64, VK_LAYER_VALVE_steam_fossilize_32, VK_LAYER_VALVE_steam_fossilize_64, VK_LAYER_MESA_anti_lag, VK_LAYER_MESA_device_select, VK_LAYER_FROG_gamescope_wsi_x86_64
+  0.36606|D|vulkan| Attempting to create vulkan instance with the following 7 instance extensions: VK_KHR_get_physical_device_properties2, VK_EXT_debug_utils, VK_KHR_surface, VK_KHR_external_memory_capabilities, VK_KHR_external_fence_capabilities, VK_KHR_external_semaphore_capabilities, VK_KHR_xlib_surface
+  0.36874|D|vulkan| Available vulkan devices:
+  0.36875|D|vulkan|  - name:Intel(R) Graphics (ARL) vendor:32902 version:109051905 type:Integrated
+  0.36876|D|vulkan| Trying to locate a vulkan device with type: Discrete
+  0.36876|D|vulkan|  - Ignoring vulkan device with unsuitable type: name:Intel(R) Graphics (ARL) vendor:32902 version:109051905 type:Integrated
+  0.36876|D|vulkan| Trying to locate a vulkan device with type: Integrated
+  0.36876|D|vulkan|  - Found vulkan device with suitable type: name:Intel(R) Graphics (ARL) vendor:32902 version:109051905 type:Integrated
+  0.36889|D|vulkan| 194 supported Vk device extensions: VK_NV_compute_shader_derivatives, VK_MESA_image_alignment_control, VK_GOOGLE_user_type, VK_GOOGLE_hlsl_functionality1, VK_GOOGLE_decorate_string, VK_EXT_vertex_attribute_divisor, VK_EXT_tooling_info, VK_EXT_texel_buffer_alignment, VK_EXT_swapchain_maintenance1, VK_EXT_shader_viewport_index_layer, VK_EXT_shader_subgroup_vote, VK_EXT_shader_replicated_composites, VK_EXT_shader_object, VK_EXT_shader_image_atomic_int64, VK_EXT_shader_demote_to_helper_invocation, VK_EXT_sample_locations, VK_EXT_robustness2, VK_EXT_shader_module_identifier, VK_EXT_private_data, VK_EXT_primitives_generated_query, VK_EXT_pipeline_robustness, VK_EXT_scalar_block_layout, VK_EXT_pipeline_library_group_handles, VK_EXT_physical_device_drm, VK_EXT_nested_command_buffer, VK_EXT_mutable_descriptor_type, VK_EXT_multi_draw, VK_EXT_mesh_shader, VK_EXT_memory_budget, VK_EXT_map_memory_placed, VK_EXT_load_store_op_none, VK_EXT_ycbcr_2plane_444_formats, VK_EXT_line_rasterization, VK_EXT_legacy_dithering, VK_EXT_inline_uniform_block, VK_EXT_image_view_min_lod, VK_EXT_image_robustness, VK_EXT_post_depth_coverage, VK_EXT_image_drm_format_modifier, VK_EXT_image_2d_view_of_3d, VK_EXT_host_query_reset, VK_AMD_buffer_marker, VK_EXT_host_image_copy, VK_KHR_shader_float_controls2, VK_KHR_present_id, VK_KHR_pipeline_executable_properties, VK_EXT_pci_bus_info, VK_KHR_shader_maximal_reconvergence, VK_KHR_maintenance2, VK_EXT_pipeline_protected_access, VK_KHR_multiview, VK_KHR_present_wait, VK_KHR_maintenance10, VK_KHR_spirv_1_4, VK_KHR_maintenance9, VK_KHR_line_rasterization, VK_EXT_pipeline_creation_feedback, VK_KHR_global_priority, VK_KHR_present_id2, VK_KHR_external_semaphore_fd, VK_KHR_ray_tracing_maintenance1, VK_KHR_acceleration_structure, VK_KHR_cooperative_matrix, VK_KHR_zero_initialize_workgroup_memory, VK_KHR_incremental_present, VK_KHR_create_renderpass2, VK_KHR_maintenance5, VK_KHR_load_store_op_none, VK_EXT_external_memory_dma_buf, VK_EXT_custom_border_color, VK_KHR_copy_commands2, VK_KHR_driver_properties, VK_KHR_maintenance7, VK_KHR_buffer_device_address, VK_KHR_draw_indirect_count, VK_EXT_calibrated_timestamps, VK_KHR_imageless_framebuffer, VK_VALVE_mutable_descriptor_type, VK_KHR_bind_memory2, VK_KHR_dedicated_allocation, VK_KHR_storage_buffer_storage_class, VK_KHR_maintenance6, VK_EXT_subgroup_size_control, VK_KHR_maintenance3, VK_EXT_pipeline_creation_cache_control, VK_KHR_pipeline_binary, VK_KHR_deferred_host_operations, VK_KHR_ray_query, VK_KHR_external_fence_fd, VK_KHR_vulkan_memory_model, VK_KHR_fragment_shading_rate, VK_KHR_present_wait2, VK_KHR_compute_shader_derivatives, VK_KHR_calibrated_timestamps, VK_KHR_variable_pointers, VK_EXT_descriptor_buffer, VK_EXT_device_memory_report, VK_KHR_ray_tracing_position_fetch, VK_KHR_8bit_storage, VK_EXT_transform_feedback, VK_KHR_depth_stencil_resolve, VK_EXT_external_memory_acquire_unmodified, VK_EXT_index_type_uint8, VK_KHR_device_group, VK_KHR_external_fence, VK_KHR_uniform_buffer_standard_layout, VK_KHR_push_descriptor, VK_EXT_color_write_enable, VK_EXT_fragment_shader_interlock, VK_KHR_get_memory_requirements2, VK_KHR_shader_relaxed_extended_instruction, VK_KHR_dynamic_rendering, VK_KHR_maintenance8, VK_EXT_attachment_feedback_loop_dynamic_state, VK_EXT_shader_atomic_float, VK_EXT_separate_stencil_usage, VK_KHR_shader_terminate_invocation, VK_KHR_dynamic_rendering_local_read, VK_INTEL_shader_integer_functions2, VK_EXT_shader_subgroup_ballot, VK_KHR_format_feature_flags2, VK_EXT_image_sliced_view_of_3d, VK_KHR_pipeline_library, VK_KHR_vertex_attribute_divisor, VK_EXT_vertex_input_dynamic_state, VK_KHR_maintenance4, VK_EXT_shader_atomic_float2, VK_KHR_external_memory_fd, VK_EXT_extended_dynamic_state2, VK_KHR_external_semaphore, VK_KHR_image_format_list, VK_EXT_border_color_swizzle, VK_KHR_ray_tracing_pipeline, VK_KHR_map_memory2, VK_KHR_robustness2, VK_KHR_shader_float16_int8, VK_EXT_depth_clip_enable, VK_KHR_sampler_ycbcr_conversion, VK_EXT_shader_stencil_export, VK_EXT_queue_family_foreign, VK_KHR_shader_subgroup_extended_types, VK_KHR_shader_atomic_int64, VK_KHR_shader_clock, VK_EXT_4444_formats, VK_EXT_ycbcr_image_arrays, VK_KHR_shader_bfloat16, VK_KHR_index_type_uint8, VK_KHR_shader_draw_parameters, VK_KHR_maintenance1, VK_EXT_external_memory_host, VK_EXT_extended_dynamic_state3, VK_KHR_external_memory, VK_KHR_relaxed_block_layout, VK_KHR_shader_expect_assume, VK_KHR_workgroup_memory_explicit_layout, VK_KHR_shader_float_controls, VK_EXT_non_seamless_cube_map, VK_KHR_shader_integer_dot_product, VK_KHR_shader_quad_control, VK_KHR_shader_non_semantic_info, VK_KHR_depth_clamp_zero_one, VK_EXT_depth_bias_control, VK_KHR_shader_subgroup_rotate, VK_KHR_shader_subgroup_uniform_control_flow, VK_EXT_sampler_filter_minmax, VK_KHR_shader_untyped_pointers, VK_KHR_swapchain, VK_KHR_descriptor_update_template, VK_EXT_display_control, VK_KHR_swapchain_maintenance1, VK_KHR_swapchain_mutable_format, VK_EXT_provoking_vertex, VK_EXT_depth_clamp_control, VK_EXT_legacy_vertex_attributes, VK_KHR_separate_depth_stencil_layouts, VK_KHR_synchronization2, VK_EXT_global_priority_query, VK_EXT_attachment_feedback_loop_layout, VK_KHR_sampler_mirror_clamp_to_edge, VK_EXT_buffer_device_address, VK_EXT_conditional_rendering, VK_EXT_depth_clip_control, VK_EXT_shader_uniform_buffer_unsized_array, VK_EXT_conservative_rasterization, VK_EXT_depth_clamp_zero_one, VK_EXT_global_priority, VK_EXT_descriptor_indexing, VK_KHR_16bit_storage, VK_KHR_timeline_semaphore, VK_EXT_dynamic_rendering_unused_attachments, VK_EXT_extended_dynamic_state, VK_EXT_primitive_topology_list_restart, VK_EXT_graphics_pipeline_library, VK_EXT_hdr_metadata
+  0.36892|D|vulkan| The following Vulkan device extensions are not supported and will be skipped: VK_EXT_memory_priority, VK_NV_device_diagnostic_checkpoints
+  0.36895|D|vulkan| Attempting to create vulkan device with the following 23 vulkan device extensions: VK_KHR_swapchain, VK_EXT_memory_budget, VK_EXT_robustness2, VK_KHR_ray_query, VK_KHR_ray_tracing_pipeline, VK_KHR_acceleration_structure, VK_KHR_deferred_host_operations, VK_KHR_get_memory_requirements2, VK_KHR_external_memory_fd, VK_KHR_external_semaphore_fd, VK_KHR_external_fence_fd, VK_KHR_image_format_list, VK_KHR_external_memory, VK_KHR_external_fence, VK_KHR_external_semaphore, VK_KHR_dedicated_allocation, VK_EXT_queue_family_foreign, VK_KHR_bind_memory2, VK_KHR_create_renderpass2, VK_KHR_maintenance2, VK_KHR_multiview, VK_KHR_push_descriptor, VK_KHR_timeline_semaphore
+  0.37202|D|vulkan| Created Vulkan device from Intel(R) Graphics (ARL)
+  0.37282|D|gfx| GFXCardProfiler (Vulkan) - Setting capability 'maxTextureWidth' to 8192.
+  0.37282|D|gfx| GFXCardProfiler (Vulkan) - Setting capability 'maxTextureHeight' to 8192.
+  0.37282|D|gfx| GFXCardProfiler (Vulkan) - Setting capability 'maxTextureSize' to 8192.
+  0.37283|D|gfx| GFXCardProfiler (Vulkan) - Setting capability 'autoMipMapLevel' to 1.
+  0.37283|D|gfx| GFXCardProfiler (Vulkan) - Setting capability 'lerpDetailBlend' to 1.
+  0.37283|D|gfx| GFXCardProfiler (Vulkan) - Setting capability 'fourStageDetailBlend' to 1.
+  0.40758|D|initShaderGen| Failed to remove file /temp/shaders/procedural/autogenConditioners.h
+  0.42037|D|vulkan| Vulkan render initialized
+  0.42042|I|vulkan| Driver Name: Intel open-source Mesa driver
+  0.42043|I|vulkan| Driver Info: Mesa 26.0.1-arch2.3
+  0.47224|D|GELua.core_settings_graphic.graphic| Sanitizing display - //./DISPLAY1: Passed.
+  0.47230|D|GELua.core_settings_graphic.graphic| Sanitizing display mode - Window: Passed.
+  0.47231|D|GELua.core_settings_graphic.graphic| Sanitizing display resolution for Window mode - 1280 720: Passed.
+  0.48429|D|imgui| Loading 13 imgui fonts...
+  0.48442|D|imgui| Adding fonts to imgui:
+  0.48447|D|imgui| 	'cairo_bold'->'ui/common/Cairo-Bold.ttf' Scale: 1.3  RangeCount: 3
+  0.48451|D|imgui| 	'cairo_regular'->'ui/common/Cairo-Regular.ttf' Scale: 1.3  RangeCount: 3
+  0.48454|D|imgui| 	'cairo_regular_medium'->'ui/common/Cairo-Regular.ttf' Scale: 1.8  RangeCount: 3
+  0.48468|D|imgui| 	'cairo_semibold_large'->'ui/common/Cairo-SemiBold.ttf' Scale: 2  RangeCount: 3
+  0.48515|D|imgui| 	'consola_regular'->'ui/common/win/consola.ttf' Scale: 1  RangeCount: 4
+  0.48565|D|imgui| 	'icons'->'ui/common/fa-solid-900.ttf' Scale: 3  RangeCount: 1
+  0.48801|D|imgui| 	'notosans_jp_regular'->'ui/common/NotoSansJP-Regular.otf' Scale: 1  RangeCount: 3004
+  0.48917|D|imgui| 	'notosans_kr_regular'->'ui/common/NotoSansKR-Regular.otf' Scale: 1  RangeCount: 3
+  0.49139|D|imgui| 	'notosans_sc_regular'->'ui/common/NotoSansSC-Regular.otf' Scale: 1  RangeCount: 2506
+  0.49408|D|imgui| 	'notosans_tc_regular'->'ui/common/NotoSansTC-Regular.otf' Scale: 1  RangeCount: 7
+  0.49421|D|imgui| 	'prompt_regular'->'ui/common/Prompt-Regular.ttf' Scale: 1  RangeCount: 3
+  0.49424|D|imgui| 	'robotomono_regular'->'ui/common/RobotoMono-Regular.ttf' Scale: 1  RangeCount: 4
+  0.49494|D|imgui| 	'segoeui_regular'->'ui/common/win/segoeui.ttf' Scale: 1  RangeCount: 4
+  0.49497|D|getImFontAtlasHash| atlas->Flags: 0
+  0.49497|D|getImFontAtlasHash| atlas->TexDesiredWidth: 0
+  0.49497|D|getImFontAtlasHash| atlas->TexGlyphPadding: 1
+  0.49498|D|getImFontAtlasHash| atlas->TexPixelsUseColors: false
+  0.49498|D|getImFontAtlasHash| atlas->Fonts.Size: 13
+  0.58905|D|load| imguiAtlas cache loaded GE=0.38.4.0.19257 imgui=1.89.8 WIP
+  0.59230|D|imgui| font texture contains 13 fonts. Atlas size: 4096x16384px
+  0.59231|D|imgui|  - cairo_bold           [24.3 px]:    292 glyphs
+  0.59231|D|imgui|  - cairo_regular        [24.3 px]:    292 glyphs
+  0.59231|D|imgui|  - cairo_regular_medium [33.7 px]:    292 glyphs
+  0.59232|D|imgui|  - cairo_semibold_large [37.4 px]:    292 glyphs
+  0.59232|D|imgui|  - consola_regular      [18.7 px]:    465 glyphs
+  0.59232|D|imgui|  - icons                [56.1 px]:     16 glyphs
+  0.59232|D|imgui|  - notosans_jp_regular  [18.7 px]:   3685 glyphs
+  0.59232|D|imgui|  - notosans_kr_regular  [18.7 px]:    388 glyphs
+  0.59233|D|imgui|  - notosans_sc_regular  [18.7 px]:   3220 glyphs
+  0.59233|D|imgui|  - notosans_tc_regular  [18.7 px]:  16064 glyphs
+  0.59233|D|imgui|  - prompt_regular       [18.7 px]:    299 glyphs
+  0.59233|D|imgui|  - robotomono_regular   [18.7 px]:    460 glyphs
+  0.59233|D|imgui|  - segoeui_regular      [18.7 px]:    465 glyphs
+  0.59233|D|imgui| 26230 glyphs totally
+  0.61439|E|GELua.lightManager| Failed to init default system:
+  0.71992|D|_mapMaterial| [Material::mapMaterial] - Cannot map unnamed Material - settings/game-settings-default.cs
+  1.04403|I|GELua.| ============== GELUA VM loaded ================
 Shutdown handler: initialize.
 Shutdown handler: initialize.
   >>>>  [CURRENT_CONFIGURATION=SHIPPING=BNG_SHIPPING]  <<<<
   >>>>  [CURRENT_CONFIGURATION=SHIPPING=BNG_SHIPPING]  <<<<
 Shutdown handler: initialize.
   >>>>  [CURRENT_CONFIGURATION=SHIPPING=BNG_SHIPPING]  <<<<
-  1.26733|D|run| Started up in 1.33 seconds: fs: 96ms, fs: 71ms, singletonThread: 7ms, modules: 268ms, TScmdline: 710ms, cef2: 168ms
-  1.74657|D|fmod| Opened project '/art/sound/fmod/desktop/main_preload.assets.bank' in 0.076 seconds. [Preload sample data]
-  1.83249|D|fmod| Opened project '/art/sound/fmod/desktop/main_preload.streams.bank' in 0.086 seconds. [Preload sample data]
-  1.91715|D|fmod| Opened project '/art/sound/fmod/desktop/vehicle_preload.assets.bank' in 0.085 seconds. [Preload sample data]
-  2.00217|D|fmod| Opened project '/art/sound/fmod/desktop/vehicle_preload.streams.bank' in 0.085 seconds. [Preload sample data]
-  2.05287|D|fmod| Opened project '/art/sound/fmod/desktop/ambient_maps.streams.bank' in 0.051 seconds.
-  2.09348|D|fmod| Opened project '/art/sound/fmod/desktop/music.assets.bank' in 0.040 seconds.
-  2.13913|D|fmod| Opened project '/art/sound/fmod/desktop/music.streams.bank' in 0.046 seconds.
-  2.17987|D|fmod| Opened project '/art/sound/fmod/desktop/speech.assets.bank' in 0.041 seconds.
-  2.22548|D|fmod| Opened project '/art/sound/fmod/desktop/speech.streams.bank' in 0.045 seconds.
-  2.26619|D|fmod| Opened project '/art/sound/fmod/desktop/ui.assets.bank' in 0.041 seconds.
-  2.30764|D|fmod| Opened project '/art/sound/fmod/desktop/ui.streams.bank' in 0.041 seconds.
-  2.35320|D|fmod| Opened project '/art/sound/fmod/desktop/vehicle.assets.bank' in 0.045 seconds.
-  2.39375|D|fmod| Opened project '/art/sound/fmod/desktop/vehicle.streams.bank' in 0.040 seconds.
-  2.47168|D|fmod| Opened project '/art/sound/fmod/desktop/main_preload.strings.bank' in 0.078 seconds. [Preload sample data]
-  2.66943|D|fmod| Opened project '/art/sound/fmod/desktop/main_preload.bank' in 0.196 seconds. [Preload sample data]
-  2.87836|D|fmod| Opened project '/art/sound/fmod/desktop/vehicle_preload.bank' in 0.208 seconds. [Preload sample data]
-  2.92552|D|fmod| Opened project '/art/sound/fmod/desktop/music.bank' in 0.046 seconds.
-  2.97218|D|fmod| Opened project '/art/sound/fmod/desktop/speech.bank' in 0.046 seconds.
-  3.01435|D|fmod| Opened project '/art/sound/fmod/desktop/ui.bank' in 0.041 seconds.
-  3.10930|D|fmod| Opened project '/art/sound/fmod/desktop/vehicle.bank' in 0.094 seconds.
-  3.23736|D|GELua.core_input_bindings.bindings| Loaded 294 bindings for device keyboard0
-  3.23749|D|GELua.core_input_bindings.bindings| Loaded 20 bindings for device mouse0
-  3.31620|D|sfx| Using default audio device: Arrow Lake cAVS Speaker
-  3.31640|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 1
-  3.31640|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 2
-  3.31642|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 3
-  3.31642|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 4
-  3.31643|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 5
-  3.31643|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 6
-  3.31669|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 7
-  3.31670|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 8
-  3.31713|D|GELua.core_settings_settings.| refreshLanguages(): oldLanguage = ""  appliedLanguage = "" userLanguage = ""
-  3.31713|D|GELua.core_settings_settings.|        switching language.
-  3.40187|D|reloadLanguages| Could not load any language, falling back to 'en-US'
-  3.40189|I|reloadLanguages| Switched from '' language to 'en-US' (as fallback, after trying '')
-  3.40262|D|GELua.core_settings_settings.| set font: segoeui_regular
-  3.40385|D|GELua.core_settings_graphic.graphic| Applying graphic settings: \\.\DISPLAY1, Window, 1280 x 720 119 Hz
-  3.42615|D|GELua.core_settings_graphic.graphic| Available Video Modes : { "2880 1800", "2880 1620", "2560 1600", "2560 1440", "2048 1536", "2048 1152", "1920 1440", "1920 1200", "1920 1080", "1680 1050", "1600 1200", "1600 900", "1440 1080", "1440 900", "1400 1050", "1368 768", "1280 1024", "1280 960", "1280 800", "1280 720", "1152 864", "1152 720", "1024 768", "1024 576", "960 600", "928 580", "864 486", "800 600", "800 500", "768 480", "720 480", "640 480" }
-  3.42712|D|sfx| Using default audio device: Arrow Lake cAVS Speaker
-  3.42799|I|GELua.telemetry_core.telemetry| Telemetry disabled via settings - operating in no-op mode
-  3.43122|D|GELua.core_modmanager.initDB| mountEntry -- /mods/multiplayer/beammp.zip:  : multiplayerbeammp
-*** CRASH *** Minidump generated at: /home/ductape/.local/share/BeamNG/BeamNG.drive/current/temp/crashReports/df30deca-6eaa-4225-1168eb81-77fa6e9c.dmp
+  1.22595|D|run| Started up in 1.29 seconds: fs: 90ms, fs: 69ms, singletonThread: 6ms, modules: 244ms, TScmdline: 725ms, cef2: 147ms
+  1.78872|D|fmod| Opened project '/art/sound/fmod/desktop/main_preload.assets.bank' in 0.068 seconds. [Preload sample data]
+  1.87448|D|fmod| Opened project '/art/sound/fmod/desktop/main_preload.streams.bank' in 0.086 seconds. [Preload sample data]
+  1.95976|D|fmod| Opened project '/art/sound/fmod/desktop/vehicle_preload.assets.bank' in 0.085 seconds. [Preload sample data]
+  2.04560|D|fmod| Opened project '/art/sound/fmod/desktop/vehicle_preload.streams.bank' in 0.086 seconds. [Preload sample data]
+  2.09635|D|fmod| Opened project '/art/sound/fmod/desktop/ambient_maps.streams.bank' in 0.051 seconds.
+  2.13699|D|fmod| Opened project '/art/sound/fmod/desktop/music.assets.bank' in 0.040 seconds.
+  2.18266|D|fmod| Opened project '/art/sound/fmod/desktop/music.streams.bank' in 0.046 seconds.
+  2.22330|D|fmod| Opened project '/art/sound/fmod/desktop/speech.assets.bank' in 0.040 seconds.
+  2.26418|D|fmod| Opened project '/art/sound/fmod/desktop/speech.streams.bank' in 0.041 seconds.
+  2.31012|D|fmod| Opened project '/art/sound/fmod/desktop/ui.assets.bank' in 0.046 seconds.
+  2.35070|D|fmod| Opened project '/art/sound/fmod/desktop/ui.streams.bank' in 0.040 seconds.
+  2.39635|D|fmod| Opened project '/art/sound/fmod/desktop/vehicle.assets.bank' in 0.046 seconds.
+  2.43698|D|fmod| Opened project '/art/sound/fmod/desktop/vehicle.streams.bank' in 0.041 seconds.
+  2.51469|D|fmod| Opened project '/art/sound/fmod/desktop/main_preload.strings.bank' in 0.078 seconds. [Preload sample data]
+  2.71848|D|fmod| Opened project '/art/sound/fmod/desktop/main_preload.bank' in 0.202 seconds. [Preload sample data]
+  2.93577|D|fmod| Opened project '/art/sound/fmod/desktop/vehicle_preload.bank' in 0.215 seconds. [Preload sample data]
+  2.96750|D|fmod| Opened project '/art/sound/fmod/desktop/music.bank' in 0.030 seconds.
+  3.01331|D|fmod| Opened project '/art/sound/fmod/desktop/speech.bank' in 0.046 seconds.
+  3.05442|D|fmod| Opened project '/art/sound/fmod/desktop/ui.bank' in 0.040 seconds.
+  3.15102|D|fmod| Opened project '/art/sound/fmod/desktop/vehicle.bank' in 0.096 seconds.
+  3.24727|D|GELua.core_input_bindings.bindings| Loaded 294 bindings for device keyboard0
+  3.24740|D|GELua.core_input_bindings.bindings| Loaded 20 bindings for device mouse0
+  3.35186|D|sfx| Using default audio device: Arrow Lake cAVS Speaker
+  3.35213|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 1
+  3.35214|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 2
+  3.35216|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 3
+  3.35216|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 4
+  3.35217|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 5
+  3.35217|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 6
+  3.35240|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 7
+  3.35240|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 8
+  3.35286|D|GELua.core_settings_settings.| refreshLanguages(): oldLanguage = ""  appliedLanguage = "" userLanguage = ""
+  3.35287|D|GELua.core_settings_settings.|        switching language.
+  3.43708|D|reloadLanguages| Could not load any language, falling back to 'en-US'
+  3.43712|I|reloadLanguages| Switched from '' language to 'en-US' (as fallback, after trying '')
+  3.43776|D|GELua.core_settings_settings.| set font: segoeui_regular
+  3.43915|D|GELua.core_settings_graphic.graphic| Applying graphic settings: \\.\DISPLAY1, Window, 1280 x 720 119 Hz
+  3.45328|D|GELua.core_settings_graphic.graphic| Available Video Modes : { "2880 1800", "2880 1620", "2560 1600", "2560 1440", "2048 1536", "2048 1152", "1920 1440", "1920 1200", "1920 1080", "1680 1050", "1600 1200", "1600 900", "1440 1080", "1440 900", "1400 1050", "1368 768", "1280 1024", "1280 960", "1280 800", "1280 720", "1152 864", "1152 720", "1024 768", "1024 576", "960 600", "928 580", "864 486", "800 600", "800 500", "768 480", "720 480", "640 480" }
+  3.45343|D|sfx| Using default audio device: Arrow Lake cAVS Speaker
+  3.45405|I|GELua.telemetry_core.telemetry| Telemetry disabled via settings - operating in no-op mode
+  3.45437|D|GELua.core_modmanager.initDB| Notification : took 0.0011820000000995ms to reorganise 0 files
+  3.45438|D|GELua.core_modmanager.initDB| Notification : took 0.014558000000164ms to callback
+  3.45474|W|GELua.core_levels.| info.json missing: /levels/GridMap/info.json
+  3.45479|E|GELua.core_levels.| No entry point for level found: /levels/GridMap. Ignoring level.
+  3.51420|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 9
+*** CRASH *** Minidump generated at: /home/ductape/.local/share/BeamNG/BeamNG.drive/current/temp/crashReports/3baab217-f9b7-44ec-c874afb7-b2ba5079.dmp
