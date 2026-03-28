@@ -1,23 +1,268 @@
-sudo dmesg | grep -i intel | tail -n 200
-[20351.646843] intel-hid INTC10CB:00: failed to get button capability
-[20640.360040] intel-hid INTC10CB:00: failed to get button capability
-[20716.794513] ===>>> BeamNGMa[175602]: segfault at 64 ip 00007f419aa380f0 sp 00007fffba4c7bc0 error 4 in libvulkan_intel.so[380f0,7f419aa0a000+929000] likely on CPU 5 (core 28, socket 0)
-[20834.195849] ===>>> BeamNGMa[176385]: segfault at 64 ip 00007f92112380f0 sp 00007ffeca207190 error 4 in libvulkan_intel.so[380f0,7f921120a000+929000] likely on CPU 0 (core 0, socket 0)
-[20856.339652] ===>>> BeamNGMa[176571]: segfault at 64 ip 00007f8b9aa380f0 sp 00007ffd5709a0e0 error 4 in libvulkan_intel.so[380f0,7f8b9aa0a000+929000] likely on CPU 3 (core 20, socket 0)
-[20897.753382] ===>>> BeamNGMa[176800]: segfault at 64 ip 00007f63f00380f0 sp 00007fffdeed3e60 error 4 in libvulkan_intel.so[380f0,7f63f000a000+929000] likely on CPU 3 (core 20, socket 0)
-[21007.609993] ===>>> BeamNGMa[177057]: segfault at 64 ip 00007fd84aa380f0 sp 00007ffc84d4d1d0 error 4 in libvulkan_intel.so[380f0,7fd84aa0a000+929000] likely on CPU 5 (core 28, socket 0)
-[21033.400208] ===>>> BeamNGMa[177265]: segfault at 64 ip 00007fc9ec4380f0 sp 00007fffb9795d20 error 4 in libvulkan_intel.so[380f0,7fc9ec40a000+929000] likely on CPU 6 (core 8, socket 0)
-[21374.739129] ===>>> BeamNGMa[178375]: segfault at 64 ip 00007f2758e380f0 sp 00007fff9d42b840 error 4 in libvulkan_intel.so[380f0,7f2758e0a000+929000] likely on CPU 3 (core 20, socket 0)
-[21449.348769] ===>>> BeamNGMa[178617]: segfault at 64 ip 00007fa62c4380f0 sp 00007ffdce12e930 error 4 in libvulkan_intel.so[380f0,7fa62c40a000+929000] likely on CPU 0 (core 0, socket 0)
-[21603.274729] ===>>> BeamNGMa[178855]: segfault at 64 ip 00007f216ea380f0 sp 00007ffd8bab0620 error 4 in libvulkan_intel.so[380f0,7f216ea0a000+929000] likely on CPU 1 (core 4, socket 0)
-[22209.208601] ===>>> BeamNGMa[180568]: segfault at 64 ip 00007fb0958380f0 sp 00007ffc73f09150 error 4 in libvulkan_intel.so[380f0,7fb09580a000+929000] likely on CPU 4 (core 24, socket 0)
-[22540.225392] ===>>> BeamNGMa[181368]: segfault at 64 ip 00007f081d8380f0 sp 00007ffee83e0250 error 4 in libvulkan_intel.so[380f0,7f081d80a000+929000] likely on CPU 2 (core 16, socket 0)
-[22596.213413] ===>>> BeamNGMa[181636]: segfault at 64 ip 00007fbcc68380f0 sp 00007fffe5db73e0 error 4 in libvulkan_intel.so[380f0,7fbcc680a000+929000] likely on CPU 9 (core 11, socket 0)
-[23161.595921] ===>>> BeamNGMa[186798]: segfault at 64 ip 00007fc410a380f0 sp 00007fffe240d9c0 error 4 in libvulkan_intel.so[380f0,7fc410a0a000+929000] likely on CPU 0 (core 0, socket 0)
-[23176.302539] ===>>> BeamNGMa[186961]: segfault at 64 ip 00007ff8718380f0 sp 00007fffe92ff260 error 4 in libvulkan_intel.so[380f0,7ff87180a000+929000] likely on CPU 4 (core 24, socket 0)
-[23281.041824] ===>>> BeamNGMa[187206]: segfault at 64 ip 00007f0c018380f0 sp 00007fff53cd67e0 error 4 in libvulkan_intel.so[380f0,7f0c0180a000+929000] likely on CPU 4 (core 24, socket 0)
-[23298.978946] ===>>> BeamNGMa[187391]: segfault at 64 ip 00007f8f8aa380f0 sp 00007fffec8c65b0 error 4 in libvulkan_intel.so[380f0,7f8f8aa0a000+929000] likely on CPU 6 (core 8, socket 0)
-[24130.133241] ===>>> BeamNGMa[187895]: segfault at 64 ip 00007f961aa380f0 sp 00007ffc0c70d4f0 error 4 in libvulkan_intel.so[380f0,7f961aa0a000+929000] likely on CPU 4 (core 24, socket 0)
-[25734.462026] intel-hid INTC10CB:00: failed to get button capability
-[25951.257373] intel-hid INTC10CB:00: failed to get button capability
-[26471.891230] ===>>> BeamNGMa[209339]: segfault at 64 ip 00007fe2298380f0 sp 00007fff41793960 error 4 in libvulkan_intel.so[380f0,7fe22980a000+929000] likely on CPU 2 (core 16, socket 0)
+[ 5266.660060] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5266.668132] systemd-sysv-generator[340267]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5266.668141] systemd-sysv-generator[340267]: Please update package to include a native systemd unit file.
+[ 5266.668144] systemd-sysv-generator[340267]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5266.671939] systemd-sysv-generator[340267]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5266.671945] systemd-sysv-generator[340267]: Please update package to include a native systemd unit file.
+[ 5266.671947] systemd-sysv-generator[340267]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5266.925552] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5266.928727] systemd-sysv-generator[340360]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5266.928730] systemd-sysv-generator[340360]: Please update package to include a native systemd unit file.
+[ 5266.928731] systemd-sysv-generator[340360]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5266.930862] systemd-sysv-generator[340360]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5266.930864] systemd-sysv-generator[340360]: Please update package to include a native systemd unit file.
+[ 5266.930865] systemd-sysv-generator[340360]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5267.170121] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5267.176214] systemd-sysv-generator[340444]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5267.176222] systemd-sysv-generator[340444]: Please update package to include a native systemd unit file.
+[ 5267.176224] systemd-sysv-generator[340444]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5267.179808] systemd-sysv-generator[340444]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5267.179812] systemd-sysv-generator[340444]: Please update package to include a native systemd unit file.
+[ 5267.179813] systemd-sysv-generator[340444]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5282.537721] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5282.540869] systemd-sysv-generator[341080]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5282.540873] systemd-sysv-generator[341080]: Please update package to include a native systemd unit file.
+[ 5282.540874] systemd-sysv-generator[341080]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5282.542733] systemd-sysv-generator[341080]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5282.542734] systemd-sysv-generator[341080]: Please update package to include a native systemd unit file.
+[ 5282.542735] systemd-sysv-generator[341080]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5285.249716] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5285.251660] systemd-sysv-generator[341278]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5285.251664] systemd-sysv-generator[341278]: Please update package to include a native systemd unit file.
+[ 5285.251665] systemd-sysv-generator[341278]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5285.253493] systemd-sysv-generator[341278]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5285.253495] systemd-sysv-generator[341278]: Please update package to include a native systemd unit file.
+[ 5285.253496] systemd-sysv-generator[341278]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5307.596865] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5307.602591] systemd-sysv-generator[341717]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5307.602599] systemd-sysv-generator[341717]: Please update package to include a native systemd unit file.
+[ 5307.602601] systemd-sysv-generator[341717]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5307.606219] systemd-sysv-generator[341717]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5307.606224] systemd-sysv-generator[341717]: Please update package to include a native systemd unit file.
+[ 5307.606226] systemd-sysv-generator[341717]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5307.787921] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5307.792415] systemd-sysv-generator[341794]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5307.792422] systemd-sysv-generator[341794]: Please update package to include a native systemd unit file.
+[ 5307.792424] systemd-sysv-generator[341794]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5307.796017] systemd-sysv-generator[341794]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5307.796020] systemd-sysv-generator[341794]: Please update package to include a native systemd unit file.
+[ 5307.796022] systemd-sysv-generator[341794]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5308.022206] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5309.773579] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5309.777049] systemd-sysv-generator[342015]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5309.777054] systemd-sysv-generator[342015]: Please update package to include a native systemd unit file.
+[ 5309.777056] systemd-sysv-generator[342015]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5309.779054] systemd-sysv-generator[342015]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5309.779056] systemd-sysv-generator[342015]: Please update package to include a native systemd unit file.
+[ 5309.779057] systemd-sysv-generator[342015]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5311.923224] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5311.926716] systemd-sysv-generator[342221]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5311.926720] systemd-sysv-generator[342221]: Please update package to include a native systemd unit file.
+[ 5311.926721] systemd-sysv-generator[342221]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5311.929012] systemd-sysv-generator[342221]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5311.929015] systemd-sysv-generator[342221]: Please update package to include a native systemd unit file.
+[ 5311.929016] systemd-sysv-generator[342221]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5312.765937] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5312.768411] systemd-sysv-generator[342332]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5312.768415] systemd-sysv-generator[342332]: Please update package to include a native systemd unit file.
+[ 5312.768417] systemd-sysv-generator[342332]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5312.770794] systemd-sysv-generator[342332]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5312.770799] systemd-sysv-generator[342332]: Please update package to include a native systemd unit file.
+[ 5312.770800] systemd-sysv-generator[342332]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5313.286415] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5313.289124] systemd-sysv-generator[342435]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5313.289128] systemd-sysv-generator[342435]: Please update package to include a native systemd unit file.
+[ 5313.289129] systemd-sysv-generator[342435]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5313.291233] systemd-sysv-generator[342435]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5313.291238] systemd-sysv-generator[342435]: Please update package to include a native systemd unit file.
+[ 5313.291239] systemd-sysv-generator[342435]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5315.774293] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5315.776113] systemd-sysv-generator[342587]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5315.776117] systemd-sysv-generator[342587]: Please update package to include a native systemd unit file.
+[ 5315.776118] systemd-sysv-generator[342587]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5315.778042] systemd-sysv-generator[342587]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5315.778044] systemd-sysv-generator[342587]: Please update package to include a native systemd unit file.
+[ 5315.778045] systemd-sysv-generator[342587]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5318.781255] device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+[ 5318.781307] device-mapper: uevent: version 1.0.3
+[ 5318.781421] device-mapper: ioctl: 4.50.0-ioctl (2025-04-28) initialised: dm-devel@lists.linux.dev
+[ 5318.976781] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5318.982126] systemd-sysv-generator[342764]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5318.982132] systemd-sysv-generator[342764]: Please update package to include a native systemd unit file.
+[ 5318.982134] systemd-sysv-generator[342764]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5318.985742] systemd-sysv-generator[342764]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5318.985745] systemd-sysv-generator[342764]: Please update package to include a native systemd unit file.
+[ 5318.985747] systemd-sysv-generator[342764]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5319.163058] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5319.168761] systemd-sysv-generator[342842]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5319.168768] systemd-sysv-generator[342842]: Please update package to include a native systemd unit file.
+[ 5319.168770] systemd-sysv-generator[342842]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5319.172390] systemd-sysv-generator[342842]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5319.172393] systemd-sysv-generator[342842]: Please update package to include a native systemd unit file.
+[ 5319.172395] systemd-sysv-generator[342842]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5319.360049] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5319.360057] systemd-sslh-ge[342918]: segfault at 0 ip 00007f5913cc885d sp 00007ffd23d178e8 error 6 in libc.so.6[16785d,7f5913b89000+168000] likely on CPU 10 (core 12, socket 0)                                                                   
+[ 5319.360064] Code: 00 00 66 66 2e 0f 1f 84 00 00 00 00 00 48 89 f8 48 83 fa 20 72 27 c5 fe 6f 06 48 83 fa 40 0f 87 a9 00 00 00 c5 fe 6f 4c 16 e0 <c5> fe 7f 07 c5 fe 7f 4c 17 e0 c5 f8 77 c3 0f 1f 44 00 00 83 fa 10
+[ 5319.365054] systemd-sysv-generator[342920]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5319.365059] systemd-sysv-generator[342920]: Please update package to include a native systemd unit file.
+[ 5319.365062] systemd-sysv-generator[342920]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5319.368786] systemd-sysv-generator[342920]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5319.368789] systemd-sysv-generator[342920]: Please update package to include a native systemd unit file.
+[ 5319.368791] systemd-sysv-generator[342920]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5319.666647] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5319.671517] systemd-sysv-generator[343015]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5319.671523] systemd-sysv-generator[343015]: Please update package to include a native systemd unit file.
+[ 5319.671525] systemd-sysv-generator[343015]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5319.675134] systemd-sysv-generator[343015]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5319.675137] systemd-sysv-generator[343015]: Please update package to include a native systemd unit file.
+[ 5319.675139] systemd-sysv-generator[343015]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5319.923828] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5319.926704] systemd-sysv-generator[343110]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5319.926707] systemd-sysv-generator[343110]: Please update package to include a native systemd unit file.
+[ 5319.926708] systemd-sysv-generator[343110]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5319.928625] systemd-sysv-generator[343110]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5319.928626] systemd-sysv-generator[343110]: Please update package to include a native systemd unit file.
+[ 5319.928627] systemd-sysv-generator[343110]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5323.260297] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5323.262654] systemd-sysv-generator[343288]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5323.262659] systemd-sysv-generator[343288]: Please update package to include a native systemd unit file.
+[ 5323.262660] systemd-sysv-generator[343288]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5323.264649] systemd-sysv-generator[343288]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5323.264651] systemd-sysv-generator[343288]: Please update package to include a native systemd unit file.
+[ 5323.264652] systemd-sysv-generator[343288]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5324.063190] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5324.066428] systemd-sysv-generator[343388]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5324.066431] systemd-sysv-generator[343388]: Please update package to include a native systemd unit file.
+[ 5324.066433] systemd-sysv-generator[343388]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5324.068356] systemd-sysv-generator[343388]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5324.068358] systemd-sysv-generator[343388]: Please update package to include a native systemd unit file.
+[ 5324.068359] systemd-sysv-generator[343388]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5367.579755] systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+[ 5367.582497] systemd-sysv-generator[349768]: SysV service '/etc/init.d/isc-dhcp-server' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5367.582500] systemd-sysv-generator[349768]: Please update package to include a native systemd unit file.
+[ 5367.582501] systemd-sysv-generator[349768]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 5367.584549] systemd-sysv-generator[349768]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+[ 5367.584551] systemd-sysv-generator[349768]: Please update package to include a native systemd unit file.
+[ 5367.584552] systemd-sysv-generator[349768]: ! This compatibility logic is deprecated, expect removal soon. !
+[ 7713.338660] warning: `iwconfig' uses wireless extensions which will stop working for Wi-Fi 7 hardware; use nl80211
+[ 7731.759421] wlan0: deauthenticating from a4:ba:70:7a:0a:eb by local choice (Reason: 3=DEAUTH_LEAVING)
+[ 7798.567738] iwlwifi 0000:00:14.3 wlan0mon: entered promiscuous mode
+[ 7798.567744] iwlwifi 0000:00:14.3 wlan0mon: entered allmulticast mode
+[ 8973.700593] wlan0: authenticate with a4:ba:70:7a:0a:eb (local address=c0:a8:10:f4:1c:13)
+[ 8973.701204] wlan0: send auth to a4:ba:70:7a:0a:eb (try 1/3)
+[ 8973.704815] wlan0: authenticated
+[ 8973.705009] wlan0: associate with a4:ba:70:7a:0a:eb (try 1/3)
+[ 8973.717133] wlan0: RX AssocResp from a4:ba:70:7a:0a:eb (capab=0x1511 status=0 aid=4)
+[ 8973.719390] wlan0: associated
+[ 8973.827731] wlan0: deauthenticating from a4:ba:70:7a:0a:eb by local choice (Reason: 3=DEAUTH_LEAVING)
+[ 8976.960510] wlan0: authenticate with a4:ba:70:7a:0a:eb (local address=c0:a8:10:f4:1c:13)
+[ 8976.961283] wlan0: send auth to a4:ba:70:7a:0a:eb (try 1/3)
+[ 8976.964541] wlan0: authenticated
+[ 8976.969117] wlan0: associate with a4:ba:70:7a:0a:eb (try 1/3)
+[ 8976.981086] wlan0: RX AssocResp from a4:ba:70:7a:0a:eb (capab=0x1511 status=0 aid=4)
+[ 8976.983812] wlan0: associated
+[ 9178.813905] wlan0: deauthenticating from a4:ba:70:7a:0a:eb by local choice (Reason: 3=DEAUTH_LEAVING)
+[ 9190.268694] iwlwifi 0000:00:14.3 wlan0mon: entered promiscuous mode
+[ 9221.427284] iwlwifi 0000:00:14.3 wlan0mon: left promiscuous mode
+[ 9223.328447] iwlwifi 0000:00:14.3 wlan0mon: entered promiscuous mode
+[ 9281.083263] iwlwifi 0000:00:14.3 wlan0mon: left promiscuous mode
+[ 9313.084547] iwlwifi 0000:00:14.3 wlan0mon: entered promiscuous mode
+[ 9323.106589] iwlwifi 0000:00:14.3 wlan0mon: left promiscuous mode
+[ 9357.374993] iwlwifi 0000:00:14.3 wlan0mon: entered promiscuous mode
+[ 9414.798211] iwlwifi 0000:00:14.3 wlan0mon: left promiscuous mode
+[ 9437.096246] iwlwifi 0000:00:14.3 wlan0mon: entered promiscuous mode
+[ 9442.985860] iwlwifi 0000:00:14.3 wlan0mon: left promiscuous mode
+[ 9505.624505] iwlwifi 0000:00:14.3 wlan0mon: entered promiscuous mode
+[ 9574.216428] iwlwifi 0000:00:14.3 wlan0mon: left promiscuous mode
+[ 9736.454034] iwlwifi 0000:00:14.3 wlan0: entered promiscuous mode
+[ 9769.203017] iwlwifi 0000:00:14.3 wlan0: left promiscuous mode
+[ 9891.238142] wlan0: authenticate with a4:ba:70:7a:0a:eb (local address=c0:a8:10:f4:1c:13)
+[ 9891.238778] wlan0: send auth to a4:ba:70:7a:0a:eb (try 1/3)
+[ 9891.252192] wlan0: authenticated
+[ 9891.253986] wlan0: associate with a4:ba:70:7a:0a:eb (try 1/3)
+[ 9891.268811] wlan0: RX AssocResp from a4:ba:70:7a:0a:eb (capab=0x1511 status=0 aid=4)
+[ 9891.270396] wlan0: associated
+[ 9903.456790] wlan0: deauthenticating from a4:ba:70:7a:0a:eb by local choice (Reason: 3=DEAUTH_LEAVING)
+[ 9909.025332] wlan0: authenticate with a4:ba:70:7a:0a:eb (local address=c0:a8:10:f4:1c:13)
+[ 9909.026077] wlan0: send auth to a4:ba:70:7a:0a:eb (try 1/3)
+[ 9909.029602] wlan0: authenticated
+[ 9909.037915] wlan0: associate with a4:ba:70:7a:0a:eb (try 1/3)
+[ 9909.049601] wlan0: RX AssocResp from a4:ba:70:7a:0a:eb (capab=0x1511 status=0 aid=4)
+[ 9909.051686] wlan0: associated
+[ 9914.046821] wlan0: deauthenticating from a4:ba:70:7a:0a:eb by local choice (Reason: 3=DEAUTH_LEAVING)
+[ 9947.736772] iwlwifi 0000:00:14.3 wlan0mon: entered promiscuous mode
+[ 9947.736776] iwlwifi 0000:00:14.3 wlan0mon: entered allmulticast mode
+[10223.090557] wlan0: authenticate with a4:ba:70:7a:0a:eb (local address=c0:a8:10:f4:1c:13)
+[10223.091139] wlan0: send auth to a4:ba:70:7a:0a:eb (try 1/3)
+[10223.094492] wlan0: authenticated
+[10223.095424] wlan0: associate with a4:ba:70:7a:0a:eb (try 1/3)
+[10223.107575] wlan0: RX AssocResp from a4:ba:70:7a:0a:eb (capab=0x1511 status=0 aid=4)
+[10223.109878] wlan0: associated
+[10284.837177] wlan0: deauthenticating from a4:ba:70:7a:0a:eb by local choice (Reason: 3=DEAUTH_LEAVING)
+[10343.347652] wlan0mon: authenticate with f8:5e:3c:52:ff:80 (local address=c0:a8:10:f4:1c:12)
+[10343.348157] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 1/3)
+[10343.451905] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 2/3)
+[10343.552700] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 3/3)
+[10343.654326] wlan0mon: authentication with f8:5e:3c:52:ff:80 timed out
+[10357.168641] wlan0mon: authenticate with f8:5e:3c:52:ff:80 (local address=c0:a8:10:f4:1c:12)
+[10357.169231] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 1/3)
+[10357.272301] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 2/3)
+[10357.373607] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 3/3)
+[10357.475076] wlan0mon: authentication with f8:5e:3c:52:ff:80 timed out
+[10371.168037] wlan0mon: authenticate with f8:5e:3c:52:ff:80 (local address=c0:a8:10:f4:1c:12)
+[10371.168580] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 1/3)
+[10371.269567] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 2/3)
+[10371.371632] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 3/3)
+[10371.472025] wlan0mon: authentication with f8:5e:3c:52:ff:80 timed out
+[10379.815463] wlan0mon: authenticate with f8:5e:3c:52:ff:80 (local address=c0:a8:10:f4:1c:12)
+[10379.816091] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 1/3)
+[10379.919800] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 2/3)
+[10380.024013] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 3/3)
+[10380.124467] wlan0mon: authentication with f8:5e:3c:52:ff:80 timed out
+[10404.165734] wlan0mon: authenticate with f8:5e:3c:52:ff:80 (local address=c0:a8:10:f4:1c:12)
+[10404.166410] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 1/3)
+[10404.273819] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 2/3)
+[10404.374680] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 3/3)
+[10404.478014] wlan0mon: authentication with f8:5e:3c:52:ff:80 timed out
+[10417.334972] wlan0mon: authenticate with f8:5e:3c:52:ff:80 (local address=c0:a8:10:f4:1c:12)
+[10417.335487] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 1/3)
+[10417.436818] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 2/3)
+[10417.537891] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 3/3)
+[10417.638973] wlan0mon: authentication with f8:5e:3c:52:ff:80 timed out
+[10445.444528] wlan0mon: authenticate with f8:5e:3c:52:ff:80 (local address=c0:a8:10:f4:1c:12)
+[10445.445105] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 1/3)
+[10445.546029] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 2/3)
+[10445.646617] wlan0mon: send auth to f8:5e:3c:52:ff:80 (try 3/3)
+[10445.748492] wlan0mon: authentication with f8:5e:3c:52:ff:80 timed out
+[10569.512571] wlan0: authenticate with a4:ba:70:7a:0a:eb (local address=c0:a8:10:f4:1c:12)
+[10569.513099] wlan0: send auth to a4:ba:70:7a:0a:eb (try 1/3)
+[10569.517471] wlan0: authenticated
+[10569.521019] wlan0: associate with a4:ba:70:7a:0a:eb (try 1/3)
+[10569.533047] wlan0: RX AssocResp from a4:ba:70:7a:0a:eb (capab=0x1511 status=0 aid=4)
+[10569.535388] wlan0: associated
+[10591.367066] wlan0: deauthenticating from a4:ba:70:7a:0a:eb by local choice (Reason: 3=DEAUTH_LEAVING)
+[10613.068585] iwlwifi 0000:00:14.3 wlan0mon: entered promiscuous mode
+[10613.068590] iwlwifi 0000:00:14.3 wlan0mon: entered allmulticast mode
+[11482.041728] wlan0: authenticate with a4:ba:70:7a:0a:eb (local address=c0:a8:10:f4:1c:12)
+[11482.042438] wlan0: send auth to a4:ba:70:7a:0a:eb (try 1/3)
+[11482.045432] wlan0: authenticated
+[11482.045714] wlan0: associate with a4:ba:70:7a:0a:eb (try 1/3)
+[11482.056865] wlan0: RX AssocResp from a4:ba:70:7a:0a:eb (capab=0x1511 status=0 aid=4)
+[11482.058632] wlan0: associated
+[11534.881255] wlan0: deauthenticating from a4:ba:70:7a:0a:eb by local choice (Reason: 3=DEAUTH_LEAVING)
+[11582.247600] wlan0: authenticate with a4:ba:70:7a:0a:eb (local address=c0:a8:10:f4:1c:12)
+[11582.248226] wlan0: send auth to a4:ba:70:7a:0a:eb (try 1/3)
+[11582.252393] wlan0: authenticated
+[11582.257018] wlan0: associate with a4:ba:70:7a:0a:eb (try 1/3)
+[11582.268884] wlan0: RX AssocResp from a4:ba:70:7a:0a:eb (capab=0x1511 status=0 aid=4)
+[11582.271274] wlan0: associated
+[12042.843625] wlan0: deauthenticating from a4:ba:70:7a:0a:eb by local choice (Reason: 3=DEAUTH_LEAVING)
+[12122.723231] iwlwifi 0000:00:14.3 fluxwl0: renamed from wlan0
+[12404.458463] iwlwifi 0000:00:14.3 fluxwl0: entered promiscuous mode
+[12404.458477] iwlwifi 0000:00:14.3 fluxwl0: entered allmulticast mode
+[12720.841629] iwlwifi 0000:00:14.3 wlan0: renamed from fluxwl0
+[12906.729241] iwlwifi 0000:00:14.3 fluxwl0: renamed from wlan0
+[13418.417035] iwlwifi 0000:00:14.3 wlan0: renamed from fluxwl0
+[13572.240405] iwlwifi 0000:00:14.3 fluxwl0: renamed from wlan0
+[13619.822838] iwlwifi 0000:00:14.3 wlan0: renamed from fluxwl0
+[13673.871403] iwlwifi 0000:00:14.3 fluxwl0: renamed from wlan0
